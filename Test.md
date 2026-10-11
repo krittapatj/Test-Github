@@ -14,11 +14,11 @@ StudyMate is designed for individual use and does not require a backend server o
 C4Context
     title StudyMate - System Context Diagram
 
-    Person(student, "Student", "University or high school student managing personal learning activities")
+    Person(student, "Student", "University or high school student")
 
-    System(studymate, "StudyMate", "Offline-first web application for learning goals, study sessions, knowledge notes, and review queue")
+    System(studymate, "StudyMate", "Offline-first learning management web application")
 
-    Rel(student, studymate, "Manages learning activities using", "Web Browser / PWA")
+    Rel(student, studymate, "Uses", "Web Browser / PWA")
 ```
 
 ## 3. Actors and Systems
